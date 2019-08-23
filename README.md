@@ -70,5 +70,5 @@ $ pm2 logs --out --lines 500 frontend-logs-node
 假设部署的 pm2 服务名为 frontend-logs-node, 那么查找关键字`15100010001`，可以使用下面的命令，
 
 ```bash
-$ tail -n 5000 /root/.pm2/logs/frontend-logs-node-out.log | grep '15100010001' -A 5 -B 8
+$ tail -n 5000 ~/.pm2/logs/frontend-logs-node-out.log | grep '15100010001' -A 5 -B 8
 ```
