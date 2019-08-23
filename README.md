@@ -51,6 +51,12 @@ $ npm run compile
 $ pm2 start process.yml
 ```
 
+停止服务名为 frontend-logs-node 的 pm2 服务使用下面的命令，
+
+```bash
+$ pm2 stop frontend-logs-node
+```
+
 ## 查看 pm2 日志
 
 使用 pm2 的子命令，
