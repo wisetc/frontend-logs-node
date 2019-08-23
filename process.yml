@@ -1,0 +1,9 @@
+apps:
+  - name: frontend-logs-node
+    script: ./dist/main.js
+    cwd: .
+    interpreter: node
+    restart: always
+    env:
+      PORT: 25000
+      NODE_ENV: production
