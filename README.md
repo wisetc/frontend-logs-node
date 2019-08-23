@@ -57,6 +57,8 @@ $ pm2 start process.yml
 $ pm2 stop frontend-logs-node
 ```
 
+可以使用 `pm2 delete <server_name>` 来删除指定的服务。
+
 ## 查看 pm2 日志
 
 使用 pm2 的子命令，
